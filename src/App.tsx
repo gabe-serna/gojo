@@ -1,7 +1,13 @@
+import { Canvas } from "@react-three/fiber";
+import UnlimitedVoid from "./UnlimitedVoid";
 function App() {
   return (
     <>
-      <h1>Satoru Gojo Domain Expansion</h1>
+      <div className="w-screen h-screen">
+        <Canvas>
+          <UnlimitedVoid />
+        </Canvas>
+      </div>
     </>
   );
 }
